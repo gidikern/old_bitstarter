@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "express": "2.5.x"
-    "restler": "2.0.x",
   },
   "engines": {
     "node": "0.8.x",

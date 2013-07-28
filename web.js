@@ -8,6 +8,7 @@ console.log("__dirname" + __dirname);
 
 app.configure( function () {
   app.use('/css', express.static(__dirname + '/css'));
+  app.use('/images', express.static(__dirname + '/images'));
   app.use('/js', express.static(__dirname + '/js'));
   app.use(express.static(__dirname + '/public'));
 });
